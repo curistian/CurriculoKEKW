@@ -1,0 +1,278 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('MinecraftTen-VGORe.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.coracao{
+    margin: auto;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    -webkit-filter: drop-shadow(2px 2px 2px black);
+    transition: transform .2s;
+}
+
+.coracao:hover{
+    transform: scale(1.1);
+}
+
+.barra{
+    background-image: url("https://www.fractalcamo.com/uploads/5/9/0/2/5902948/s189772745713394276_p3856_i147_w750.jpeg");
+    background-size: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #194B32;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.barra-menu{
+    display: flex;       
+}
+
+.barra a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    text-shadow: 1px 2px 3px black;
+}
+
+.barra a:hover{
+    background-color: #ddd;
+    color: black;
+    text-shadow: 1px 2px 3px grey
+}
+
+body{
+    font-size: 100%;
+    font-family: Minecraft;
+    color:  #E8f1f2;
+    background: #13293d;
+    height: 100vh;
+	flex-direction: column;
+	background-color: #fff;
+	background-image: url('https://www.craftycreations.net/wp-content/uploads/2019/08/Stone-Brick-Block-e1566147597782.png');
+	background-size: 200px;
+	background-position: center;
+	position: relative;
+}
+
+.wood{
+    background-image: url("https://art.pixilart.com/71eeae815e3d70a.png");
+    background-size: 300px;
+    border: 20px solid transparent;
+    border-image: url("https://static.planetminecraft.com/files/image/minecraft/texture-pack/2021/362/14416263-quartzpack_l.webp") 30% round;
+    -webkit-filter: drop-shadow(-5px 5px 3px black);
+    transition: transform .2s;
+    margin-top: 20px;
+}
+
+.wood:hover{
+    transform: scale(1.1);
+}
+
+.conteudo{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 200;
+    text-shadow: -1px 2px 2px black;
+}
+
+.conteudo-titulo{
+    margin: 0;
+    padding: 0;
+    font-size: 70px;
+    text-shadow: 0 2px 2px #dfdfdf, 
+      -2px 5px 1px #b8b8b8, 
+      -4px 8px 0px #979797, 
+      -6px 11px 0px #747474,
+      -8px 14px 0px #565656,
+      -10px 17px 0px #343434,
+      -12px 20px 0px #171717,
+      -14px 23px 0px #000;
+    color: white;
+    font: 'Minecraft';
+    margin-bottom: 20px;
+    margin-top: 50px;
+    transition: transform .2s;
+}
+
+.conteudo-titulo:hover{
+    transform: scale(1.1);
+    animation
+}
+
+.textimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+.arthur{
+    margin-top: 20px;
+    width: 60px;
+    height: 200px;
+    flex-basis: 40%;
+    -webkit-filter: drop-shadow(3px 3px 2px black);
+    margin-bottom: 20px;
+    transition: transform .2s;
+}
+
+.arthur:hover{    
+    transform: scale(1.1);
+}
+
+.texto{
+    font-size: 25px;
+    margin-left: 45px;
+    margin-top: 0;
+    width: 700px;
+    transition: transform .2s;
+}
+
+.texto:hover{
+    transform: scale(1.1);
+}
+
+.qualidades{
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    transition: transform .2s;
+}
+
+.qualidades:hover{
+    transform: scale(1.1);
+}
+
+.qualidades img{
+    max-width: 4%;
+    vertical-align: middle;
+    -webkit-filter: drop-shadow(-2px 2px 1px black);
+    margin: 7px;
+    transition: transform .7s ease-in-out;
+}
+
+.qualidades img:hover{
+    transform: rotate(360deg);
+}
+
+.qual{
+    display: inline-block;
+}
+
+.qualidadess{
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    transition: transform .2s;
+}
+
+.qualidadess:hover{
+    transform: scale(1.1);
+}
+
+.qualidadess img{
+    max-width: 4%;
+    vertical-align: middle;
+    -webkit-filter: drop-shadow(-2px 2px 1px black);
+    margin: 7px;
+    transition: transform .7s ease-in-out;
+}
+
+.qualidadess img:hover{
+    transform: rotate()
+}
+
+.espada{
+    transform: scaleX(-1);
+}
+
+.espada:hover{
+    transform: scaleX(-1);
+}
+
+.quali{
+    display: inline-block;
+}
+
+.lista{
+    text-align: center;
+}
+
+.lista li{
+    list-style: none;
+    padding: 5px;
+}
+
+.formulario{
+    margin-top: 60px;
+    color: #f2f2f2;
+    text-shadow: -1px 2px 2px black;
+    text-align: center;
+
+}
+
+.formulario input{
+    font-family: 'Minecraft';
+    text-align: center;
+}
+
+.formulario select{
+    font-family: 'Minecraft';
+}
+
+.idadef{
+    width: 40px;
+    text-align: center;
+}
+
+.curriculo{
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 0px;
+    transition: transform .2s;
+}
+
+.curriculo:hover{
+    transform: scale(1.1);
+}
+
+.curriculo img{
+    max-width: 5%;
+    vertical-align: middle;
+    -webkit-filter: drop-shadow(-2px 2px 1px black);
+    margin: 7px;
+    transition: transform .7s ease-in-out;
+    margin:0px 0px 10px;
+}
+
+.curriculo img:hover{
+    transform: rotate(360deg);
+}
+
+.cur{
+    display: inline-block;
+}
